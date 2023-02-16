@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    min-height: 50vh;
+    background-color: black;
+    flex-wrap: wrap;
+    margin: 16px;  
+    gap: 16px;
+    padding: 16px;
+    color: aliceblue;
+}
+.aluno{
+    width: 200px;
+    height: 200px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color:blueviolet;
+}
+.aluno__nota{
+    font-size: 120px;
+    
+}
+.sombraVerde{
+    background-color: green
+}
+.sombraVermelha{
+    background-color: red;
+}
